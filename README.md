@@ -60,6 +60,7 @@ colours, design system and company profile. Kept separate from SecureVisa on pur
 | ITSEC logo pack | `itsec-*` PNGs in `assets/logos/` (horizontal/vertical × grey/white, black, icon, avatar, favicon); downloadable from `itsec.html` | [Open page](itsec.html) |
 | ITSEC design system | Full brand guide (blue triangle mark, blue/orange palette) | [Open guide](https://claude.ai/design/p/7aa556c6-378a-4b96-abb3-6eded235ff0c?via=share) |
 | ITSEC Company Profile 2026 | Approved corporate profile PDF | [Open PDF](https://itsecae.sharepoint.com/:b:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/ITSEC%20Company%20Profile%202026.pdf?csf=1&web=1&e=fIPrzZ) |
+| ITSEC Email Signature | Per-employee HTML signatures for 2026 (e.g. Amir, Melika) | [Open folder](https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/IT%20SEC/Handover%20ITSEC/ITSEC%20Email%20Signature?csf=1&web=1&e=NJBsOD) |
 
 **ITSEC colours** — Deep Blue `#004A98` · Bright Blue `#0074C8` · Navy `#092D74` ·
 Orange `#FE6B00` · Wordmark Grey `#63656A`.
