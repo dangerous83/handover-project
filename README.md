@@ -117,4 +117,4 @@ can each get their own page the same way ITSEC did.
 
 ---
 
-*Prepared July 2026 · Questions: a.jampazar@itsecnow.com*
+*Prepared July 2026 · Questions: a.jampazar@itsecnow.com · WhatsApp [+971 56 164 3886](https://wa.me/971561643886)*
