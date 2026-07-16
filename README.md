@@ -13,6 +13,7 @@ SharePoint, and how to handle the most common requests.
 |---|---|
 | `index.html` | The handover portal — start here. Works offline, can be emailed as one file. |
 | `assets/logos/` | Quick-access PNG logo pack (grey/black/white × horizontal/vertical, icon, favicon, avatar). Masters live on SharePoint. |
+| `assets/hero-image.png` | Full-resolution hero visual used on the portal banner (`hero-image-web.jpg` is the optimised copy embedded in the page). |
 | `README.md` | This file — a plain-text summary of the same information. |
 
 ## Brand guides & design systems
