@@ -48,6 +48,8 @@
     padding:7px 12px;border-radius:8px;transition:.15s;
   }
   .nav-links a:hover{background:#FDEEE5;color:var(--sv-deep)}
+  .nav-links a.switch{background:var(--sv-deep);color:#fff}
+  .nav-links a.switch:hover{background:#a8360f;color:#fff}
 
   /* ---------- hero ---------- */
   header.hero{
@@ -156,7 +158,11 @@
   .logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
   .logo-tile{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
   .logo-tile .frame{height:130px;display:flex;align-items:center;justify-content:center;padding:16px}
-  .logo-tile .frame.dark{background:linear-gradient(135deg,var(--sv-deep),var(--sv-orange))}
+  .logo-tile .frame.dark{background:linear-gradient(135deg,#1c1815,#0b0a09)}
+  /* Step-0 access + Projects */
+  .access-card{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+  .access-btn{display:inline-flex;align-items:center;gap:9px;white-space:nowrap;background:var(--sv-orange);color:#fff;text-decoration:none;font-weight:800;font-size:.98rem;padding:14px 26px;border-radius:12px;transition:.15s;box-shadow:0 8px 20px rgba(236,107,29,.30)}
+  .access-btn:hover{background:var(--sv-deep)}
   .logo-tile img{max-height:100%;max-width:88%;object-fit:contain}
   .logo-tile .meta{padding:10px 14px;font-size:.82rem;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:7px}
   .logo-tile .meta b{display:block;font-size:.86rem}
@@ -230,8 +236,10 @@
       <a href="#guides">Brand Guides</a>
       <a href="#brand">Brand Essentials</a>
       <a href="#assets">Asset Library</a>
+      <a href="#projects">Projects</a>
       <a href="#howto">How-To</a>
       <a href="#next">What&rsquo;s Next</a>
+      <a class="switch" href="itsec.html">↔ ITSEC handover</a>
     </div>
   </div>
 </nav>
@@ -251,7 +259,7 @@
     </div>
   </div>
   <div class="hero-stats">
-    <div class="stat"><b>6</b><span>SharePoint asset packs, all linked below</span></div>
+    <div class="stat"><b>8</b><span>SharePoint asset packs, all linked below</span></div>
     <div class="stat"><b>7</b><span>company brand guides &amp; design systems</span></div>
     <div class="stat"><b>1</b><span>brand font — Friska (OTF·TTF·WOFF)</span></div>
     <div class="stat"><b>15+</b><span>ready-made templates &amp; live examples</span></div>
@@ -263,29 +271,16 @@
   <!-- ============ START HERE ============ -->
   <section id="start">
     <span class="sec-kicker">Step 0</span>
-    <h2>Start here — your first-day checklist</h2>
-    <p class="sec-intro">Five things to sort out before you touch any artwork. Once these are done,
-       everything else on this page will just work.</p>
-    <div class="card">
-      <ul class="check">
-        <li><span class="n">1</span>
-          <div><b>Get SharePoint access</b>
-          <span>Everything lives on the <a href="https://itsecae.sharepoint.com/sites/MarketingDigitalAssets" target="_blank" rel="noopener">Marketing Digital Assets</a> site
-          (folder <em>SVG&nbsp;/ Handover&nbsp;–&nbsp;July&nbsp;2026</em>). If a link below asks you to sign in, request access from IT first.</span></div></li>
-        <li><span class="n">2</span>
-          <div><b>Bookmark the brand guides</b>
-          <span>Each company has its own design system (linked in the next section). They open on claude.ai — if one won&rsquo;t load, ask for the share link to be re-sent to your account.</span></div></li>
-        <li><span class="n">3</span>
-          <div><b>Install the Friska font</b>
-          <span>It&rsquo;s the SecureVisa brand typeface, and artwork won&rsquo;t open correctly without it.
-          Grab <code>Friska.otf</code> from <em>SecureVisa Logo Packs → SecureVisa Font</em> and install it before opening any .ai or .psd file.</span></div></li>
-        <li><span class="n">4</span>
-          <div><b>Check your Adobe apps</b>
-          <span>The editable masters are Illustrator (.ai) and Photoshop (.psd) files — you&rsquo;ll need both. Final deliverables go out as PDF, PNG or HTML.</span></div></li>
-        <li><span class="n">5</span>
-          <div><b>Skim the Asset Library below</b>
-          <span>Ten minutes now saves hours later: know what already exists before you rebuild anything. Most requests are covered by an existing template.</span></div></li>
-      </ul>
+    <h2>Start here — get your access</h2>
+    <p class="sec-intro">Before you touch any artwork, you&rsquo;ll need access to the ITSEC SharePoint —
+       that&rsquo;s where every master file, template and brand asset for the group lives.</p>
+    <div class="card access-card">
+      <div>
+        <h3 style="margin:0 0 8px">Request access to the ITSEC SharePoint</h3>
+        <p style="font-size:.95rem;color:var(--ink-soft);margin:0;max-width:60ch">Everything for SecureVisa (and the wider group) is stored under
+           <em>Marketing Digital Assets → SVG</em>. If the folder asks you to sign in, request access from IT first, then bookmark it.</p>
+      </div>
+      <a class="access-btn" href="https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG?csf=1&amp;web=1&amp;e=DKNOFT" target="_blank" rel="noopener">🔑 Open ITSEC SharePoint →</a>
     </div>
   </section>
 
@@ -304,10 +299,11 @@
         <a class="btn" href="https://claude.ai/design/p/735647bb-549a-42d4-aae8-fee4aa5e7236?via=share" target="_blank" rel="noopener">Open guide ↗</a>
       </div>
       <div class="card guide">
-        <span class="pill grey">Phase 2 — next handover</span>
+        <span class="pill orange">Own handover page</span>
         <h3>ITSEC</h3>
-        <p>IT security brand. Its dedicated handover is coming next — the design system is already available here.</p>
-        <a class="btn ghost" href="https://claude.ai/design/p/7aa556c6-378a-4b96-abb3-6eded235ff0c?via=share" target="_blank" rel="noopener">Open guide ↗</a>
+        <p>IT security brand — the blue triangle mark. It now has its own dedicated handover page so the two brands never get mixed up.</p>
+        <a class="btn" href="itsec.html">Open ITSEC handover ↗</a>
+        <a class="btn ghost" href="https://claude.ai/design/p/7aa556c6-378a-4b96-abb3-6eded235ff0c?via=share" target="_blank" rel="noopener" style="margin-left:8px">Design system ↗</a>
       </div>
       <div class="card guide">
         <span class="pill grey">Design system</span>
@@ -364,30 +360,6 @@
       </div>
     </div>
 
-    <div class="grid g2" style="margin-bottom:18px">
-      <div class="card">
-        <span class="pill orange">Typography</span>
-        <h3 style="margin:12px 0 6px">Friska — the brand typeface</h3>
-        <p style="font-size:.93rem;color:var(--ink-soft)">Used for headlines and all designed artwork.
-           Files (<code>.otf</code>, <code>.ttf</code>, <code>.woff</code>) are in
-           <em>SecureVisa Logo Packs → SecureVisa Font</em>. Install it first — artwork substitutes fonts silently without it.</p>
-        <h3 style="margin:16px 0 6px">Arial — for anything email</h3>
-        <p style="font-size:.93rem;color:var(--ink-soft)">Email signatures and HTML business cards use Arial for reliable
-           rendering in Outlook/Gmail. Don&rsquo;t swap it for Friska in emails.</p>
-      </div>
-      <div class="card">
-        <span class="pill orange">Company facts</span>
-        <div class="facts" style="margin-top:12px">
-          <div><b>Legal name</b>SVG Corporate Service Provider LLC</div>
-          <div><b>Brand name</b>SecureVisa Group (SVG)</div>
-          <div><b>Website</b><a href="https://www.securevisanow.com" target="_blank" rel="noopener">www.securevisanow.com</a></div>
-          <div><b>Office</b>The Onyx Tower 1, The Greens, Dubai, UAE</div>
-          <div><b>Telephone</b>+971 4 257 2406</div>
-          <div><b>Social</b>Facebook · LinkedIn · Instagram · WhatsApp<br>(handles: <em>securevisagroup / securevisanow</em>)</div>
-        </div>
-      </div>
-    </div>
-
     <div class="card">
       <span class="pill orange">Logo quick pack</span>
       <p style="font-size:.9rem;color:var(--ink-soft);margin:8px 0 14px">
@@ -415,7 +387,7 @@
   <section id="assets">
     <span class="sec-kicker">SharePoint</span>
     <h2>Asset library — what lives where</h2>
-    <p class="sec-intro">Six folders under <em>Marketing Digital Assets → SVG → Handover&nbsp;–&nbsp;July&nbsp;2026</em>.
+    <p class="sec-intro">Everything under <em>Marketing Digital Assets → SVG → Handover&nbsp;–&nbsp;July&nbsp;2026</em>.
        Each card lists what&rsquo;s actually inside, so you never have to guess.</p>
 
     <div class="grid g2">
@@ -494,6 +466,73 @@
         <a class="btn" href="https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/Letterhead%20SVG?csf=1&amp;web=1&amp;e=vA1lBO" target="_blank" rel="noopener">Open folder ↗</a>
       </div>
 
+      <div class="card asset">
+        <div class="asset-head"><div class="asset-ico">📣</div><h3>Corporate Ads — Regulators</h3></div>
+        <span class="label">What&rsquo;s inside</span>
+        <ul>
+          <li>Corporate advertising creative aimed at regulators &amp; official bodies (folder <em>SVG New corporate</em>).</li>
+          <li>The approved look for regulator-facing ads and announcements.</li>
+        </ul>
+        <div class="tip">💡 Keep new regulator ads consistent with these — match the layout, colours and tone before publishing.</div>
+        <a class="btn" href="https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/SVG%20New%20corporate?csf=1&amp;web=1&amp;e=VQSXua" target="_blank" rel="noopener">Open folder ↗</a>
+      </div>
+
+      <div class="card asset">
+        <div class="asset-head"><div class="asset-ico">📕</div><h3>Company Profile</h3></div>
+        <span class="label">What&rsquo;s inside</span>
+        <ul>
+          <li><strong>SecureVisa Group Company Profile.pdf</strong> — the approved corporate profile to share with clients &amp; partners.</li>
+        </ul>
+        <div class="tip">💡 Always send the latest approved PDF from SharePoint. The ITSEC profile lives on the <a href="itsec.html#profile">ITSEC handover</a>.</div>
+        <a class="btn" href="https://itsecae.sharepoint.com/:b:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/SecureVisa%20Group%20Company%20Profile.pdf?csf=1&amp;web=1&amp;e=AiFBaQ" target="_blank" rel="noopener">Open profile PDF ↗</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ LIVE PROJECTS ============ -->
+  <section id="projects">
+    <span class="sec-kicker">Live links</span>
+    <h2>Projects &amp; live web assets</h2>
+    <p class="sec-intro">Hosted deliverables you can open or share right away — the marketing hub for ads and
+       Meta/social posts, client presentations, and a live brand kit. Bookmark the ones you&rsquo;ll reuse.</p>
+    <div class="grid g3">
+      <div class="card guide">
+        <span class="pill orange">Ads &amp; social</span>
+        <h3>SecureVisa Marketing Hub</h3>
+        <p>Live marketing site — the source for ads, Meta/social posts and campaign creative.</p>
+        <a class="btn" href="https://marketing.securevisanow.com/" target="_blank" rel="noopener">Open site ↗</a>
+      </div>
+      <div class="card guide">
+        <span class="pill orange">Ads &amp; social</span>
+        <h3>SVG Social Media Proposal</h3>
+        <p>Social-media proposal — post concepts, formats and channel plan for Meta and beyond.</p>
+        <a class="btn ghost" href="https://dangerous83.github.io/SVG-Social-Media-Proposal/" target="_blank" rel="noopener">Open proposal ↗</a>
+      </div>
+      <div class="card guide">
+        <span class="pill grey">Presentation</span>
+        <h3>ComplianceX</h3>
+        <p>Client-facing presentation for ComplianceX.</p>
+        <a class="btn ghost" href="https://dangerous83.github.io/ComplianceX/" target="_blank" rel="noopener">Open deck ↗</a>
+      </div>
+      <div class="card guide">
+        <span class="pill grey">Presentation</span>
+        <h3>InvetBridge</h3>
+        <p>Client-facing presentation for InvetBridge.</p>
+        <a class="btn ghost" href="https://dangerous83.github.io/invetbridge-presentation/" target="_blank" rel="noopener">Open deck ↗</a>
+      </div>
+      <div class="card guide">
+        <span class="pill grey">Presentation</span>
+        <h3>DED &amp; Dubai Chamber</h3>
+        <p>Presentation prepared for DED &amp; Dubai Chamber.</p>
+        <a class="btn ghost" href="https://ded-presentation.itsecnow.com/" target="_blank" rel="noopener">Open deck ↗</a>
+      </div>
+      <div class="card guide">
+        <span class="pill grey">Brand kit</span>
+        <h3>Cybershield Brand Kit</h3>
+        <p>Live Cybershield brand kit — logos, colours and usage in one place.</p>
+        <a class="btn ghost" href="https://cybershield-brandkit.online/" target="_blank" rel="noopener">Open brand kit ↗</a>
+      </div>
     </div>
   </section>
 
@@ -550,12 +589,11 @@
     <h2>What&rsquo;s next</h2>
     <div class="grid g2">
       <div class="card">
-        <span class="pill grey">Phase 2</span>
-        <h3 style="margin:10px 0 6px">ITSEC handover — coming next</h3>
-        <p style="font-size:.93rem;color:var(--ink-soft)">The same treatment for the ITSEC brand is planned as the next phase:
-        its asset folders, templates and playbooks will be added alongside this page. The
-        <a href="https://claude.ai/design/p/7aa556c6-378a-4b96-abb3-6eded235ff0c?via=share" target="_blank" rel="noopener">ITSEC design system</a>
-        is already linked above if work comes in before then.</p>
+        <span class="pill orange">Now live</span>
+        <h3 style="margin:10px 0 6px">ITSEC handover — ready now</h3>
+        <p style="font-size:.93rem;color:var(--ink-soft)">The ITSEC brand now has its <a href="itsec.html">own dedicated handover page</a> —
+        logo pack, colours, design system and company profile — kept separate from SecureVisa so there&rsquo;s no confusion
+        about which brand you&rsquo;re working on. Other group brands can each get the same treatment next.</p>
       </div>
       <div class="card">
         <span class="pill green">Keep it alive</span>
