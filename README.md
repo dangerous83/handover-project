@@ -45,6 +45,19 @@ on `itsecae.sharepoint.com`.
 | **Diagram Structure – Proposal** | `Diagaram Proposal.pdf` template + `FA/` (final artwork per client, e.g. NUR TAKSON FZCO A/B) | [Open](https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/Diagram%20Structure%20-%20Proposal?csf=1&web=1&e=pIAdB0) |
 | **Letterhead** | `SVG Letterhead.ai` editable master + approved-look reference JPG | [Open](https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG/Handover%20-%20July%202026/Letterhead%20SVG?csf=1&web=1&e=vA1lBO) |
 
+## Live projects & web links
+
+Hosted deliverables you can open or share directly (also in the **Projects** section of `index.html`):
+
+| Project | Type | Link |
+|---|---|---|
+| SecureVisa Marketing Hub | Ads & social | <https://marketing.securevisanow.com/> |
+| SVG Social Media Proposal | Ads & social | <https://dangerous83.github.io/SVG-Social-Media-Proposal/> |
+| ComplianceX | Presentation | <https://dangerous83.github.io/ComplianceX/> |
+| InvetBridge | Presentation | <https://dangerous83.github.io/invetbridge-presentation/> |
+| DED & Dubai Chamber | Presentation | <https://ded-presentation.itsecnow.com/> |
+| Cybershield Brand Kit | Brand kit | <https://cybershield-brandkit.online/> |
+
 ## Brand quick reference
 
 **Colours**
@@ -71,7 +84,7 @@ Dubai, UAE · T +971 4 257 2406.
 
 ## First-day checklist for the new owner
 
-1. Get access to the [Marketing Digital Assets](https://itsecae.sharepoint.com/sites/MarketingDigitalAssets) SharePoint site.
+1. **Get access to the ITSEC SharePoint** — everything lives under [Marketing Digital Assets → SVG](https://itsecae.sharepoint.com/:f:/r/sites/MarketingDigitalAssets/Shared%20Documents/SVG?csf=1&web=1&e=DKNOFT). Request access from IT if it asks you to sign in.
 2. Bookmark the brand-guide links above (claude.ai share access needed).
 3. Install the **Friska** font from *Logo Packs → SecureVisa Font*.
 4. Make sure Adobe Illustrator + Photoshop are available (masters are `.ai`/`.psd`).
